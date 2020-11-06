@@ -30,22 +30,22 @@ function draw() {
     u = createButton("Up"); 
     u.size(width/4,height/4);
     u.position((width/2)-(u.width/2),(height/4)-(u.height/2));
-    u.style('font-size',30px);
+    u.style('font-size','30px');
 
     d = createButton("Down"); 
     d.size(width/4,height/4);
     d.position((width/2)-(d.width/2),(height/4*3)-(d.height/2));
-    d.style('font-size',30px);
+    d.style('font-size','30px');
 
     l = createButton("Left"); 
     l.size(width/4,height/4);
     l.position((width/4)-(l.width/2),(height/2)-(l.height/2));
-    l.style('font-size',30px);
+    l.style('font-size','30px');
 
     r = createButton("Right"); 
     r.size(width/4,height/4);
     r.position((width/4*3)-(r.width/2),(height/2)-(r.height/2));
-    r.style('font-size',30px);
+    r.style('font-size','30px');
 
       u.mousePressed(() => {
 
